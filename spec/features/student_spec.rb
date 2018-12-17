@@ -19,7 +19,7 @@ end
 
 describe 'form page' do
   it 'form renders with the new action' do
-    visit new_student_path
+    visit new_student_pathø
     expect(page).to have_content("Student Form")
   end
 
